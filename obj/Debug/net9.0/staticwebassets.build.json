@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "F/dKUBj03u19UbJTqE60pkfBTcTffqE+gpxkSoY8EiE=",
+  "Source": "CesarApi",
+  "BasePath": "_content/CesarApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
