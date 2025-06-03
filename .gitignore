@@ -1,0 +1,80 @@
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+
+# Archivos de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Archivos de Rider
+.idea/
+*.sln.iml
+
+# Archivos de NuGet
+*.nupkg
+# Los paquetes NuGet se pueden restaurar, así que no es necesario versionarlos
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Archivos de compilación de .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de prueba
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+
+# Archivos de cobertura de código
+*.coverage
+*.coveragexml
+
+# Archivos de publicación
+*.Publish.xml
+*.publishsettings
+
+# Archivos temporales
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Archivos de usuario
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de caché
+*.cache
+*.dll.refresh
+
+# Archivos de log
+*.log
+logs/
+log/
+
+# Archivos de configuración local
+appsettings.Development.json
+appsettings.Local.json
+*.Development.json
+*.Local.json
+
+# Archivos de secretos
+secrets.json
+*.pfx
+*.key 

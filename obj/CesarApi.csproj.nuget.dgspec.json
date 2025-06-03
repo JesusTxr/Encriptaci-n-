@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chuch\\CesarApi\\CesarApi.csproj": {}
+    "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\CesarApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chuch\\CesarApi\\CesarApi.csproj": {
+    "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\CesarApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chuch\\CesarApi\\CesarApi.csproj",
+        "projectUniqueName": "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\CesarApi.csproj",
         "projectName": "CesarApi",
-        "projectPath": "C:\\Users\\chuch\\CesarApi\\CesarApi.csproj",
-        "packagesPath": "C:\\Users\\chuch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chuch\\CesarApi\\obj\\",
+        "projectPath": "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\CesarApi.csproj",
+        "packagesPath": "C:\\Users\\st4rd_334fxfq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chuch\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\st4rd_334fxfq\\Encriptaci-n-\\NuGet.Config",
+          "C:\\Users\\st4rd_334fxfq\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -38,15 +39,19 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -60,6 +65,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.16, 8.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -68,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

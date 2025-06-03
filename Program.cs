@@ -3,6 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Agrega esta línea para registrar los controladores
 builder.Services.AddControllers();
 
+// Agrega Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -12,6 +16,10 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+// Habilita Swagger en desarrollo
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseCors("AllowAll");
 
